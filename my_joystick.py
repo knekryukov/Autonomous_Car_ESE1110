@@ -48,7 +48,7 @@ class MyJoystickController(JoystickController):
         #init set of mapping from buttons to function calls
             
         self.button_down_trigger_map = {
-            'LB' : self.toggle_mode,
+            'RB' : self.toggle_mode,
             'B' : self.erase_last_N_records,
             'B' : self.emergency_stop,
             'Y' : self.increase_max_throttle,

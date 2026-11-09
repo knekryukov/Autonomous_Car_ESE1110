@@ -36,7 +36,7 @@
 # 
 # The resolution of the input image. Higher resolution needs more processing power.
 IMAGE_W = 240
-IMAGE_H = 192
+IMAGE_H = 140
 # 
 # # The depth of the image. 3 for RGB, 1 for Greyscale.
 # IMAGE_DEPTH = 3
@@ -172,6 +172,7 @@ PWM_STEERING_THROTTLE = {
 	"THROTTLE_STOPPED_PWM": 360,            # Calibrated value: Stopped
 	"THROTTLE_REVERSE_PWM": 315,            # Max Reverse PWM was 220
 }
+
 
 # #
 # # SERVO_HBRIDGE_2PIN
