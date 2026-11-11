@@ -168,7 +168,7 @@ PWM_STEERING_THROTTLE = {
 	"PWM_THROTTLE_INVERTED": False,         # Invert throttle direction
 	"STEERING_LEFT_PWM": 490,               # Calibrated value: Full Left
 	"STEERING_RIGHT_PWM": 290,              # Calibrated value: Full Right
-	"THROTTLE_FORWARD_PWM": 400,            # Max Forward PWM was 500
+	"THROTTLE_FORWARD_PWM": 402,            # Max Forward PWM was 500
 	"THROTTLE_STOPPED_PWM": 360,            # Calibrated value: Stopped
 	"THROTTLE_REVERSE_PWM": 315,            # Max Reverse PWM was 220
 }
@@ -820,4 +820,17 @@ AUTO_RECORD_ON_THROTTLE = True
 # # 'local': AI Steering and Throttle
 # WEB_INIT_MODE = "user"
 DONKEY_GYM = False
-AUTO_CREATE_NEW_TUB = True
+AUTO_CREATE_NEW_TUB = False
+
+# Match mypilot model input
+IMAGE_W = 240
+IMAGE_H = 192
+
+# Input settings for the locally trained 140x240 model.
+IMAGE_W = 240
+IMAGE_H = 140
+IMAGE_DEPTH = 3
+TRANSFORMATIONS = []
+POST_TRANSFORMATIONS = ['RESIZE']
+RESIZE_WIDTH = 240
+RESIZE_HEIGHT = 140
