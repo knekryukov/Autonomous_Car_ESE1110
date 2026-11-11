@@ -48,11 +48,11 @@ class MyJoystickController(JoystickController):
         #init set of mapping from buttons to function calls
             
         self.button_down_trigger_map = {
-            'RB' : self.toggle_mode,
-            'B' : self.erase_last_N_records,
+            'X' : self.toggle_mode,
+            'Y' : self.erase_last_N_records,
             'B' : self.emergency_stop,
-            'Y' : self.increase_max_throttle,
-            'X' : self.decrease_max_throttle,
+            'RB' : self.increase_max_throttle,
+            'LB' : self.decrease_max_throttle,
             'A' : self.toggle_constant_throttle,
             'unknown(0x13b)' : self.toggle_manual_recording,
         }

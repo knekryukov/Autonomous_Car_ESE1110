@@ -820,3 +820,4 @@ AUTO_RECORD_ON_THROTTLE = True
 # # 'local': AI Steering and Throttle
 # WEB_INIT_MODE = "user"
 DONKEY_GYM = False
+AUTO_CREATE_NEW_TUB = True
