@@ -166,9 +166,10 @@ PWM_STEERING_THROTTLE = {
 	"PWM_THROTTLE_PIN": "PCA9685.1:40.1",   # Pin for ESC (Throttle)
 	"PWM_THROTTLE_SCALE": 1,              # PWM frequency compensation
 	"PWM_THROTTLE_INVERTED": False,         # Invert throttle direction
-	"STEERING_LEFT_PWM": 490,               # Calibrated value: Full Left
-	"STEERING_RIGHT_PWM": 290,              # Calibrated value: Full Right
-	"THROTTLE_FORWARD_PWM": 402,            # Max Forward PWM was 500
+	"STEERING_LEFT_PWM": 575,               # Calibrated value: Full Left
+	# mid val is 375
+	"STEERING_RIGHT_PWM": 175,              # Calibrated value: Full Right
+	"THROTTLE_FORWARD_PWM": 397,            # Max Forward PWM was 500
 	"THROTTLE_STOPPED_PWM": 360,            # Calibrated value: Stopped
 	"THROTTLE_REVERSE_PWM": 315,            # Max Reverse PWM was 220
 }
